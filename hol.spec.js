@@ -1,4 +1,4 @@
-xit('function definition order', function() {
+it('function definition order', function() {
     function isNimble(){ return true; }
 
     expect(/*TODO:write variable*/).toBeTruthy();

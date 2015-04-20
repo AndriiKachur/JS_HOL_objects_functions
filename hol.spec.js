@@ -50,6 +50,7 @@ xit('What is the name of a function?', function() {
 xit('Fix the code', function() {
     var ninja = {
         yell: function(n){
+			/*FIX SOMETHING HERE*/ 
             return n > 0 ? ninja.yell(n-1) + "a" : "hiy";
         }
     };
@@ -61,6 +62,7 @@ xit('Fix the code', function() {
     try {
         samurai.yell(4);
     } catch(e){
+		console.log(e);
         expect.fail();
     }
 });

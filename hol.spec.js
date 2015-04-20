@@ -41,7 +41,7 @@ xit('What is the name of a function?', function() {
 
     //TODO: uncomment one
     //expect(typeof myNinja).toBe('function');
-    //expect(typeof myNinja).toBeUndefined();
+    //expect(typeof myNinja).toBe('undefined');
 
     expect(typeof ninja).toBe('function');
 });
